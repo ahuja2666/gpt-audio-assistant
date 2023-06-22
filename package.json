@@ -1,0 +1,25 @@
+{
+  "name": "gpt-audio-assistant",
+  "version": "1.0.0",
+  "description": "a bot using Node.js which interacts with users through a web application, interprets voice input from users, and responds verbally using GPT. The bot will convert the voice input from the web application into text, process the text using GPT, convert the GPT response back into spoken word, and feed the response back through the web application. The end goal is to enable users to communicate with GPT over a web interface using their voice. ",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahuja2666/gpt-audio-assistant.git"
+  },
+  "author": "harshit",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ahuja2666/gpt-audio-assistant/issues"
+  },
+  "homepage": "https://github.com/ahuja2666/gpt-audio-assistant#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.22"
+  }
+}
